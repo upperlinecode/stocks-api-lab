@@ -28,9 +28,9 @@ Luckily, a lot of those paid APIs are easy to sign up for and have a free tier y
 In order for this application to work, you may need a few things:
 
 1. A program that will "get" the quiz question. In other words, if we think of the url (the 'link') as an address, we need a way to go get the data waiting for us at that address. We will use a python library called "Requests."
-2. A way to easily read the information that comes back to us from that address.
+2. An API key that lets the server know we're authorized to access the information we're requestiong.
 
-#### Install a requests handler
+#### 1. Install a requests handler
 
 **This is pre-installed on Replit. If you're using Replit, skip this step.**
 
@@ -46,7 +46,7 @@ We also need to tell the Python program to actually USE the library we just inst
 import requests
 ```
 
-#### Sign up for an API key
+#### 2. Sign up for an API key
 
 Before you can use an API, you have to sign up for the service. We'll be using the free tier of a service called [Polygon](https://polygon.io/). To make things quick and easy, you're encouraged to sign up with your GitHub account.
 
