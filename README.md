@@ -112,9 +112,9 @@ The [Aggregate (Bars)](https://polygon.io/docs/stocks/get_v2_aggs_ticker__stocks
 
 10. Print out yearly data for the 2010s decade (2010 - 2019) - Which year would have the highest payout if you bought $10,000 worth of stock on January 1 and sold it on December 31?
 
-#### LEVEL 4: Build the game
+#### LEVEL 4: Build the Simulator
 
-Level 4 is much more unstructured. Instead of breaking down specific tasks, it's going to ask you to envision certain versions of a game. This is just a basic interactive command line application, like oregon trail, except set in more recent times.
+Level 4 is much more unstructured. Instead of breaking down specific tasks, it's going to ask you to envision certain versions of a simulation or a game. This is just a basic interactive command line application, like Oregon Trail, except set in more recent times, and with a more financial focus.
 
 The [MVP](https://www.productplan.com/glossary/minimum-viable-product/): Start on January 1, 2010. Offer the user $10,000 and a single company to invest some, none, or all of it in. For each "turn" in the simulation, advance forward 1 year. Then let them know how their investment has done, and allow the to buy more, sell more, or leave things as is. Also give them $2,000 additional dollars to invest that they've saved up over the course of the year. At the end of 10 turns (10 years), their score is the total value of their investments.
 
