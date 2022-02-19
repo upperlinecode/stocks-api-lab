@@ -8,11 +8,10 @@ We're going to build an stock market simulator! This application will eventually
 
 That version will take some time, and when you're building something complicated, one strategy is to start with the hardest part first - in this case, that's going to be accessing all stock prices for some certain companies over an entire decade.
 
-If you wanted to look up one stock price on a certain day, you could just search that up and copy the price over into your code.
-
-If you needed to copy over 10 prices for your application to work, that could start to feel tedious.
-
-If you needed an entire decade of stock prices copied over into your application, you might start to feel like you were doing busywork, even if it were just for one single company. If you had do it for 10, 20, or 100 companies, you'll probably start to feel like there has to be a better way, and luckily for you, there is!
+* If you wanted to look up one stock price on a certain day, you could just search that up and copy the price over into your code.
+* If you needed to copy over 10 prices for your application to work, that could start to feel tedious.
+* If you needed an entire decade of stock prices copied over into your application, you might start to feel like you were doing busywork, even if it were just for one single company. 
+* If you had do it for 10, 20, or 100 companies, you'll probably start to feel like there has to be a better way, and luckily for you, there is!
 
 That's where APIs come in. An API (Application Program Interface) allows two different applications to interact. For our purposes today, this means that our program (which needs to know stock prices) will interface with a service someone _else_ made (which essentially answers questions about stock prices).
 
